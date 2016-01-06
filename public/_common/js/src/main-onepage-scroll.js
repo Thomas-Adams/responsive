@@ -19,6 +19,24 @@ jQuery(document).ready(function($) {
                     var top = (-100 * activeSectionIndex) +"%";
                     var offset = $("#scroll-body").offset();
                     offset.top = offset.top + wh;
+                    
+                    if ($this.prev()[0]) {
+                    	$this.prev().find(".lazy").ioloader({
+                        	onBeforeImageShow : function(e) {
+                        		e.parent().focusPoint("adjustFocus");
+                        	}
+                        });
+                        if($this.prev().prev()[0]) {
+                           
+                            $this.prev().prev().find(".lazy").ioloader({
+                            	onBeforeImageShow : function(e) {
+                            		e.parent().focusPoint("adjustFocus");
+                            	}
+                            });
+                        }
+                    }
+                    
+                    
                     /*
                     $("#scroll-body").css({
                         "top" : offset.top +"px",
@@ -44,12 +62,17 @@ jQuery(document).ready(function($) {
                     var offset = $("#scroll-body").offset();
                     offset.top = offset.top - wh;
                     if ($this.next()[0]) {
+                    	 $this.next().find(".lazy").ioloader({
+                         	onBeforeImageShow : function(e) {
+                         		e.parent().focusPoint("adjustFocus");
+                         	}
+                         });
                         if($this.next().next()[0]) {
-                            $this.next().next().find(".lazy").trigger('lazyupdate');
-                            $this.next().next().find(".lazy").recliner({
-                                attrib: "data-src",
-                                threshold :0,
-                                live : true
+                           
+                            $this.next().next().find(".lazy").ioloader({
+                            	onBeforeImageShow : function(e) {
+                            		e.parent().focusPoint("adjustFocus");
+                            	}
                             });
                         }
                     }
@@ -73,16 +96,18 @@ jQuery(document).ready(function($) {
 
     $('.focuspoint').focusPoint();
 
-    $('.lazy').recliner({
-        attrib: "data-src",
-        threshold :0,
-        live : true
+    $('.blue .lazy').ioloader({
+    	onBeforeImageShow : function(e) {
+    		e.parent().focusPoint("adjustFocus");
+    	}
+    });
+    $('.magenta .lazy').ioloader({
+    	onBeforeImageShow : function(e) {
+    		e.parent().focusPoint("adjustFocus");
+    	}
     });
 
-    $(document).on('lazyshow', '.lazy', function() {
-        $(this).parent().focusPoint("adjustFocus");
-        alert("focus adjusted");
-    });
+    
 
 
 });
