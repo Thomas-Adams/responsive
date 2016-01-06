@@ -1,0 +1,165 @@
+/* line 1, ../../../sass/one-page-scroll.scss */
+body, html {
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+/* line 9, ../../../sass/one-page-scroll.scss */
+div#scroll-body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 21, ../../../sass/one-page-scroll.scss */
+div#scroll-body.page2 {
+  height: 100%;
+  top: -100%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+}
+
+/* line 30, ../../../sass/one-page-scroll.scss */
+div#scroll-body.page2.page3 {
+  top: -200%;
+  height: 100%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+}
+
+/* line 39, ../../../sass/one-page-scroll.scss */
+div#scroll-body.page2.page3.page4 {
+  top: -300%;
+  height: 100%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+}
+
+/* line 49, ../../../sass/one-page-scroll.scss */
+div#scroll-body.page2.page3.page4.page5 {
+  top: -400%;
+  height: 100%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+}
+
+/* line 58, ../../../sass/one-page-scroll.scss */
+div#scroll-body.page2.page3.page4.page5.page6 {
+  top: -500%;
+  height: 100%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+}
+
+/* line 67, ../../../sass/one-page-scroll.scss */
+div#scroll-body.page2.page3.page4.page5.page6.page7 {
+  top: -600%;
+  height: 100%;
+  transition: top 0.4s ease-in;
+  -ms-transition: top 0.4s ease-in;
+  -moz-transition: top 0.4s ease-in;
+  -webkit-transition: top 0.4s ease-in;
+}
+
+/* line 77, ../../../sass/one-page-scroll.scss */
+section {
+  text-align: center;
+}
+
+/* line 81, ../../../sass/one-page-scroll.scss */
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+/* line 89, ../../../sass/one-page-scroll.scss */
+.magenta {
+  background-color: magenta;
+  color: white;
+}
+
+/* line 94, ../../../sass/one-page-scroll.scss */
+.red {
+  background-color: red;
+  color: white;
+}
+
+/* line 99, ../../../sass/one-page-scroll.scss */
+.yellow {
+  background-color: yellow;
+  color: white;
+}
+
+/* line 104, ../../../sass/one-page-scroll.scss */
+.green {
+  background-color: green;
+  color: white;
+}
+
+/* line 109, ../../../sass/one-page-scroll.scss */
+.black {
+  background-color: black;
+  color: white;
+}
+
+/* line 114, ../../../sass/one-page-scroll.scss */
+.aqua {
+  background-color: aqua;
+}
+
+/* !FOCUSED IMAGES */
+/*-----------------------------------------*/
+/* line 120, ../../../sass/one-page-scroll.scss */
+.focuspoint {
+  position: relative;
+  /*Any position but static should work*/
+  overflow: hidden;
+  height: 100%;
+  background: black url("images/loader.gif") no-repeat scroll center center;
+}
+
+/* line 126, ../../../sass/one-page-scroll.scss */
+.focuspoint img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  display: block;
+  /* fill and maintain aspect ratio */
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: none;
+  max-width: none;
+}
+
+/* line 139, ../../../sass/one-page-scroll.scss */
+.lazy {
+  opacity: 0;
+  transition: opacity .333s ease-in;
+}
+
+/* line 144, ../../../sass/one-page-scroll.scss */
+.lazy-loaded {
+  opacity: 1;
+}

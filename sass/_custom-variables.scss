@@ -1,0 +1,28 @@
+/**
+ * for type='left' the hamburger menu is displayed
+ * left, for right just remove that include.
+ * Usage :
+ *   @include bs3-hamburger-location('left');
+ *
+*/
+@mixin bs3-hamburger-location($type,$margin:15px) {
+    .navbar-toggle {
+        @if $type == left {
+            margin-left: $margin;
+            margin-right: 0px;
+            float: left;
+        }
+        @if $type == right {
+            margin-right: $margin;
+            margin-left: 0px;
+            float: right;
+        }
+    }
+}
+
+
+@mixin bs3-navbar-toggle-override() {
+    .navbar-toggle {
+        display : block;
+    }
+}
