@@ -76,7 +76,10 @@
 </node>
 <node TEXT="Page navigation and loading" POSITION="left" ID="ID_1423605986" CREATED="1450695994072" MODIFIED="1450696015914">
 <edge COLOR="#0000ff"/>
-<node TEXT="AJAX based preloading of single pages" ID="ID_1002973079" CREATED="1450696018365" MODIFIED="1450696032666"/>
+<node TEXT="AJAX based preloading of single pages" ID="ID_1002973079" CREATED="1450696018365" MODIFIED="1452130505294">
+<attribute_layout NAME_WIDTH="142"/>
+<attribute NAME="URL example" VALUE=""/>
+</node>
 <node TEXT="Endless scrolling with AJAX based preloading" ID="ID_1443673557" CREATED="1450696035326" MODIFIED="1450696059208"/>
 <node TEXT="Endless scrolling no preloading" ID="ID_1674432588" CREATED="1450696062549" MODIFIED="1450696083412"/>
 </node>
@@ -390,7 +393,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="OS" ID="ID_269966552" CREATED="1450916177150" MODIFIED="1450916189643">
 <node TEXT="iOS" ID="ID_1235126604" CREATED="1450916271120" MODIFIED="1450916275685"/>

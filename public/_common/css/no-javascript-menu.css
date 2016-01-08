@@ -60,19 +60,28 @@
   transition: all 0.15s ease-out 0s;
 }
 
-/* line 53, ../../../sass/no-javascript-menu.scss */
+/* line 55, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler {
   display: none;
 }
-/* line 58, ../../../sass/no-javascript-menu.scss */
+/* line 60, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-sidebar {
   left: 0px;
 }
-/* line 61, ../../../sass/no-javascript-menu.scss */
+/* line 63, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-nav-toggle {
   left: 180px;
 }
-/* line 64, ../../../sass/no-javascript-menu.scss */
+/* line 66, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-page-content {
   left: 160px;
+}
+
+/* line 75, ../../../sass/no-javascript-menu.scss */
+ul.submenu {
+  overflow: hidden;
+  height: 0px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
 }

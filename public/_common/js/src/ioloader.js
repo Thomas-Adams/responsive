@@ -1,6 +1,22 @@
 /**
  * ioloader.js
- * JQuery plugin for lazy preloading of images --
+ * JQuery plugin for lazy preloading of images.
+ * 
+ * All images that are not already loaded (they have the 'lazy-loaded' class) or
+ * are about to be loaded (they have the 'lazy-loading' class) will be preloaded
+ * via a AJAX call. On successful loading the images are shown.
+ * 
+ * All images subject to dynamic preloading should have the class 'lazy'. 
+ * In order for example to apply the 'focus point' hook into the 'onBeforeImageShow'
+ * callback function.
+ * 
+ * Options: 
+ * 
+ * attribute 			: 	name of the attribute that holds the source URL for the image, default is 'data-src'
+ * onAfterImageShow		: 	callback handler executed direct after the image loaded and shown, 
+ * 							before the actual event lazyshow is triggered.
+ * onBeforeImageShow	: 	callback handler executed after the image is loaded, but before
+ * 							the image is shown.
  */
 
 (function( $ ) {
@@ -11,7 +27,7 @@
         	selector = this.selector,
         	defaults = {
 				attribute : 'data-src',
-				onImageShow : function(e){},
+				onAfterImageShow : function(e){},
 				onBeforeImageShow : function(e){}
 			};
 		
@@ -23,7 +39,7 @@
 			e.attr('src',source); 
 			settings.onBeforeImageShow(e);			
 	        e.addClass('lazy-loaded');
-	        settings.onImageShow(e);
+	        settings.onAfterImageShow(e);
 	        e.trigger('lazyshow');
 		};
 		
@@ -38,7 +54,7 @@
 					onImageLoad(e, source);
 				},
 				error : function(jqXHR, textStatus, errorThrown) {
-					alert(textStatus + ':' + errorThrown);
+					e.trigger('lazyerror', { errorMessage : textStatus + ':' + errorThrown});
 				}				
 			});
 		};

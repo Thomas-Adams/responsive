@@ -50,6 +50,8 @@ $menuWidthNegative : -1*$menuWidth;
     @include transition();
 }
 
+
+
 #genSidebarToggler {
     display: none;
 
@@ -66,4 +68,12 @@ $menuWidthNegative : -1*$menuWidth;
             }
         }
     }
+}
+
+
+
+ul.submenu {
+	overflow: hidden;
+	height: 0px;
+	@include transition();
 }
