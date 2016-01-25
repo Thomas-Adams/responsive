@@ -193,70 +193,16 @@ section {
        transform: translate3d(0, 0, 0);
 	}
 	
-	h2.show, p.show, p.show {
-       text-indent: 0px;
-        @include transition(left 1s ease-out 2.2s);
-       transform: translate3d(0, 0, 0);
+	h2.show, p.show {
+       text-indent: 0px;        
     }
     
     img.show {
         left: 0px;
-         @include transition(left 1s ease-out 2.2s);
-       transform: translate3d(0, 0, 0);
+        
     } 
 }
 
-section:first .content {
-	
-	position : relative;
-    top: -100%; 
-    left:0px;
-    width:100%;
-    height:100%;
-    color : white;
-    padding : 20px;
-    text-align: left;
-	
-	
-	h2:nth-child(1) {
-       text-indent: -2000px;
-       @include transition(text-indent 1s ease-out 0.7s);
-       transform: translate3d(0, 0, 0);     
-    }
-        
-    p:nth-child(2) {
-       text-indent: -2000px;
-       @include transition(text-indent 1s ease-out 1.2s);
-       transform: translate3d(0, 0, 0);    
-    }
-    p:nth-child(3) {
-       text-indent: -2000px;       
-       @include transition(text-indent 1s ease-out 1.7s);
-       transform: translate3d(0, 0, 0);
-       
-    }
-    
-    img:nth-child(4) {
-       position: relative;
-       left: -2000px;          
-       @include transition(left 1s ease-out 2.2s);
-       transform: translate3d(0, 0, 0);
-    }
-
-
-	h2:nth-child(1).show, p:nth-child(2).show, p:nth-child(3).show {
-	   text-indent: 0px;
-	    @include transition(left 1s ease-out 2.2s);
-       transform: translate3d(0, 0, 0);
-	}
-	
-	img:nth-child(4).show {
-	   left: 0px;
-	   @include transition(left 1s ease-out 2.2s);
-       transform: translate3d(0, 0, 0);
-	} 
-
-}
 
 
 
@@ -266,11 +212,7 @@ $menuWidthNegative : -1*$menuWidth;
 .main {
     z-index : 0;
     @include transition(left 0.4s ease-in);
-    transform: translate3d(0, 0, 0);
-    
-    
-    
-        
+    transform: translate3d(0, 0, 0);   
 }
 .gen-page-content {    
     left: 0px;
@@ -313,8 +255,8 @@ $menuWidthNegative : -1*$menuWidth;
     height:38px;
     width: 38px;
     line-height: 30px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: transparent;
     padding: 4px 4px 4px 4px;
     @include transition(left 0.4s ease-in);
     transform: translate3d(0, 0, 0);    
@@ -385,7 +327,7 @@ ul.submenu {
 }
 
 .nav-button-wrapper-down {
-	bottom: -80px;
+	bottom: 80px;
 }
 
 .nav-button-wrapper-up {

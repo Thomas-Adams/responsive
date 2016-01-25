@@ -85,8 +85,8 @@
 </node>
 <node TEXT="Navigation styles" POSITION="right" ID="ID_1864041085" CREATED="1450696097124" MODIFIED="1450696103134">
 <edge COLOR="#00ff00"/>
-<node TEXT="Off-Canvas navigation" ID="ID_146113134" CREATED="1450696104654" MODIFIED="1450696115485">
-<node TEXT="Slide navigation" ID="ID_868438263" CREATED="1450854341186" MODIFIED="1450854352837">
+<node TEXT="Off-Canvas navigation" ID="ID_146113134" CREATED="1450696104654" MODIFIED="1452240225843">
+<node TEXT="Slide navigation" ID="ID_868438263" CREATED="1450854341186" MODIFIED="1452240225841">
 <node TEXT="simple" ID="ID_170549519" CREATED="1450854363728" MODIFIED="1451969119041">
 <attribute NAME="URL example" VALUE="http://localhost:3001/slidebars-menu.html" OBJECT="java.net.URI|http://localhost:3001/slidebars-menu.html"/>
 <attribute NAME="From" VALUE="https://www.youtube.com/watch?v=d4P8s-mkMvs&amp;list=PLB1tHjY6_AzltKYY1LzY7U2ADRNSV9hDL" OBJECT="java.net.URI|https://www.youtube.com/watch?v=d4P8s-mkMvs&amp;list=PLB1tHjY6_AzltKYY1LzY7U2ADRNSV9hDL"/>
@@ -132,7 +132,7 @@
 </node>
 <node TEXT="No" ID="ID_1454408427" CREATED="1450697373451" MODIFIED="1450697375221"/>
 </node>
-<node TEXT="Requirements fro mobile" POSITION="left" ID="ID_998621837" CREATED="1450916171221" MODIFIED="1450930796167">
+<node TEXT="Requirements for mobile framworks" POSITION="left" ID="ID_998621837" CREATED="1450916171221" MODIFIED="1452218254507">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 

@@ -1,19 +1,17 @@
 var heightSubMenuItems = 20;
 jQuery(document).ready(function($) {
-    
+	$(".content").children().removeClass("show");
 	$("section").ioSimplePageTransition();
     $('.focuspoint').focusPoint();
 
     $('.blue .lazy').ioloader({
     	onBeforeImageShow : function(e) {    		
     		if(e.hasClass("main"))
-    			e.parent().focusPoint("adjustFocus");    		
+    			e.parent().focusPoint("adjustFocus"); 
+    		$('.blue .content').children().addClass("show");
     	}    	
     });
-    
-    window.setTimeout(function(){
-    	$('.blue .content').children().addClass("show");
-    },1000)
+   
     
     $('.magenta .lazy').ioloader({
     	onBeforeImageShow : function(e) {
