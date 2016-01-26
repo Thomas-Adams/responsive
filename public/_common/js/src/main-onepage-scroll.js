@@ -16,7 +16,14 @@ jQuery(document).ready(function($) {
     $('.magenta .lazy').ioloader({
     	onBeforeImageShow : function(e) {
     		if(e.hasClass("main"))
-    			e.parent().focusPoint("adjustFocus");
+    			e.parent().focusPoint("adjustFocus");    		
+    	},
+    	
+    	onAfterImageShow : function(e) {
+    		if(e.attr("id")=="sharkhorse-img") {
+    			e,addClass("animated")
+    		}
+    		
     	}
     });
     

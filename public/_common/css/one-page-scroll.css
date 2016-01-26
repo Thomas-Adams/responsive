@@ -238,7 +238,24 @@ section {
   left: 0px;
 }
 
-/* line 212, ../../../sass/one-page-scroll.scss */
+/* line 208, ../../../sass/one-page-scroll.scss */
+#sharkhorse img:nth-child(5) {
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  transform: translate3d(0, 0, 0) scale(1.3);
+}
+/* line 214, ../../../sass/one-page-scroll.scss */
+#sharkhorse img.animated {
+  top: 0px;
+  left: 0px;
+  transform: scale(1);
+}
+
+/* line 225, ../../../sass/one-page-scroll.scss */
 .main {
   z-index: 0;
   -webkit-transition: left 0.4s ease-in;
@@ -247,7 +264,7 @@ section {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 217, ../../../sass/one-page-scroll.scss */
+/* line 230, ../../../sass/one-page-scroll.scss */
 .gen-page-content {
   left: 0px;
   margin: 0px 0px 0px 0px;
@@ -257,7 +274,7 @@ section {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 224, ../../../sass/one-page-scroll.scss */
+/* line 237, ../../../sass/one-page-scroll.scss */
 .gen-sidebar {
   position: absolute;
   top: 0px;
@@ -272,21 +289,21 @@ section {
   transition: left 0.4s ease-in;
   transform: translate3d(0, 0, 0);
 }
-/* line 233, ../../../sass/one-page-scroll.scss */
+/* line 246, ../../../sass/one-page-scroll.scss */
 .gen-sidebar ul {
   padding: 0px 0px 0px 0px;
 }
-/* line 236, ../../../sass/one-page-scroll.scss */
+/* line 249, ../../../sass/one-page-scroll.scss */
 .gen-sidebar ul li a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
-/* line 239, ../../../sass/one-page-scroll.scss */
+/* line 252, ../../../sass/one-page-scroll.scss */
 .gen-sidebar ul li a:hover {
   color: white;
 }
 
-/* line 248, ../../../sass/one-page-scroll.scss */
+/* line 261, ../../../sass/one-page-scroll.scss */
 .gen-nav-toggle {
   position: absolute;
   top: 0px;
@@ -310,11 +327,11 @@ section {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 267, ../../../sass/one-page-scroll.scss */
+/* line 280, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler {
   display: none;
 }
-/* line 273, ../../../sass/one-page-scroll.scss */
+/* line 286, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler + .gen-page-wrap .gen-sidebar {
   position: absolute;
   top: 0px;
@@ -324,7 +341,7 @@ section {
   transition: left 0.4s ease-in;
   transform: translate3d(0, 0, 0);
 }
-/* line 279, ../../../sass/one-page-scroll.scss */
+/* line 292, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler + .gen-page-wrap .gen-nav-toggle {
   left: 0px;
   -webkit-transition: left 0.4s ease-in;
@@ -332,7 +349,7 @@ section {
   transition: left 0.4s ease-in;
   transform: translate3d(0, 0, 0);
 }
-/* line 284, ../../../sass/one-page-scroll.scss */
+/* line 297, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler + .gen-page-wrap .gen-page-content {
   left: 0px;
   -webkit-transition: left 0.4s ease-in;
@@ -340,7 +357,7 @@ section {
   transition: left 0.4s ease-in;
   transform: translate3d(0, 0, 0);
 }
-/* line 295, ../../../sass/one-page-scroll.scss */
+/* line 308, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-sidebar {
   -webkit-transition: left 0.4s ease-in;
   -moz-transition: left 0.4s ease-in;
@@ -348,7 +365,7 @@ section {
   transform: translate3d(0, 0, 0);
   left: 0px;
 }
-/* line 300, ../../../sass/one-page-scroll.scss */
+/* line 313, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-nav-toggle {
   left: 160px;
   -webkit-transition: left 0.4s ease-in;
@@ -356,7 +373,7 @@ section {
   transition: left 0.4s ease-in;
   transform: translate3d(0, 0, 0);
 }
-/* line 305, ../../../sass/one-page-scroll.scss */
+/* line 318, ../../../sass/one-page-scroll.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-page-content {
   left: 160px;
   -webkit-transition: left 0.4s ease-in;
@@ -365,7 +382,7 @@ section {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 316, ../../../sass/one-page-scroll.scss */
+/* line 334, ../../../sass/one-page-scroll.scss */
 ul.submenu {
   overflow: hidden;
   height: 0px;
@@ -374,19 +391,19 @@ ul.submenu {
   transition: all 0.15s ease-out 0s;
 }
 
-/* line 323, ../../../sass/one-page-scroll.scss */
+/* line 341, ../../../sass/one-page-scroll.scss */
 .nav-button-wrapper-up, .nav-button-wrapper-down {
   position: absolute;
   text-align: center;
   width: 100%;
 }
 
-/* line 329, ../../../sass/one-page-scroll.scss */
+/* line 347, ../../../sass/one-page-scroll.scss */
 .nav-button-wrapper-down {
   bottom: 80px;
 }
 
-/* line 333, ../../../sass/one-page-scroll.scss */
+/* line 351, ../../../sass/one-page-scroll.scss */
 .nav-button-wrapper-up {
   top: 80px;
 }
