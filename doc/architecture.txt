@@ -1,0 +1,3 @@
+1. Template engine SWIG
+2. JQuery as base instead of Zepto.js
+3. JQuery FocusPoint to maintain the focus point of an image. 

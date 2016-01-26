@@ -1,7 +1,7 @@
 var heightSubMenuItems = 20;
 jQuery(document).ready(function($) {
 	$(".content").children().removeClass("show");
-	$("section").ioSimplePageTransition();
+	$("#scroll-body").ioSimplePageTransition();
     $('.focuspoint').focusPoint();
 
     $('.blue .lazy').ioloader({
@@ -35,5 +35,12 @@ jQuery(document).ready(function($) {
 			$this.addClass("open");
 		}		
 	});
+    
+    $("ul.submenu a").click(function(ev){
+    	ev.preventDefault();
+    	var $this =$(this);
+    	var index = $this.parent().prevAll("li").size();
+    	$("#scroll-body").ioSimplePageTransition("navigateTo",index);
+    });
     
 });

@@ -39,6 +39,34 @@
 }
 
 /* line 38, ../../../sass/no-javascript-menu.scss */
+.gen-sidebar-right {
+  position: fixed;
+  top: 0px;
+  right: -160px;
+  background: #333;
+  z-index: 0;
+  width: 160px;
+  height: 100%;
+  padding: 30px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+}
+/* line 46, ../../../sass/no-javascript-menu.scss */
+.gen-sidebar-right ul {
+  padding: 0px 0px 0px 0px;
+}
+/* line 49, ../../../sass/no-javascript-menu.scss */
+.gen-sidebar-right ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+/* line 52, ../../../sass/no-javascript-menu.scss */
+.gen-sidebar-right ul li a:hover {
+  color: white;
+}
+
+/* line 61, ../../../sass/no-javascript-menu.scss */
 .gen-nav-toggle {
   position: fixed;
   top: 0px;
@@ -60,24 +88,61 @@
   transition: all 0.15s ease-out 0s;
 }
 
-/* line 55, ../../../sass/no-javascript-menu.scss */
+/* line 77, ../../../sass/no-javascript-menu.scss */
+.gen-nav-toggle-right {
+  position: fixed;
+  top: 0px;
+  right: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  z-index: 1;
+  cursor: pointer;
+  max-width: 100%;
+  height: 65px;
+  line-height: 40px;
+  color: black;
+  background-color: white;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+}
+
+/* line 94, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler {
   display: none;
 }
-/* line 60, ../../../sass/no-javascript-menu.scss */
+/* line 99, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-sidebar {
   left: 0px;
 }
-/* line 63, ../../../sass/no-javascript-menu.scss */
+/* line 102, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-nav-toggle {
   left: 180px;
 }
-/* line 66, ../../../sass/no-javascript-menu.scss */
+/* line 105, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-page-content {
   left: 160px;
 }
 
-/* line 75, ../../../sass/no-javascript-menu.scss */
+/* line 113, ../../../sass/no-javascript-menu.scss */
+#genSidebarTogglerRight {
+  display: none;
+}
+/* line 118, ../../../sass/no-javascript-menu.scss */
+#genSidebarTogglerRight:checked + .gen-page-wrap .gen-sidebar-right {
+  right: 0px;
+}
+/* line 121, ../../../sass/no-javascript-menu.scss */
+#genSidebarTogglerRight:checked + .gen-page-wrap .gen-nav-toggle-right {
+  right: 180px;
+}
+/* line 124, ../../../sass/no-javascript-menu.scss */
+#genSidebarTogglerRight:checked + .gen-page-wrap .gen-page-content {
+  rigth: 160px;
+}
+
+/* line 133, ../../../sass/no-javascript-menu.scss */
 ul.submenu {
   overflow: hidden;
   height: 0px;
