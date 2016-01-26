@@ -43,4 +43,14 @@ jQuery(document).ready(function($) {
     	$("#scroll-body").ioSimplePageTransition("navigateTo",index);
     });
     
+    $(".nav-button-wrapper-up").click(function(ev){
+    	var index = $(this).closest("section").prevAll("section").size()-1;
+    	$("#scroll-body").ioSimplePageTransition("navigateTo",index);
+    });
+    
+    $(".nav-button-wrapper-down").click(function(ev){
+    	var index = $(this).closest("section").prevAll("section").size()+1;
+    	$("#scroll-body").ioSimplePageTransition("navigateTo",index);
+    });
+    
 });

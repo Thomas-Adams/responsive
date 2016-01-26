@@ -130,9 +130,9 @@
 		},
 		
 		_loadCurrent : function(e) {
-			e.ioloader({
+			e.find(".lazy").ioloader({
 		    	onBeforeImageShow : function(elem) {
-		    		if(elem.hasClass("main"))
+		    		//if(elem.hasClass("main"))
 		    			elem.parent().focusPoint("adjustFocus");
 		    	}
 		    });
@@ -147,7 +147,7 @@
             
 			
 			this.activeSectionIndex = index;
-			var top = (-100 * this.activeSectionIndex) +"%", offset = $elem.offset(),  clazz= "page" + (self.activeSectionIndex+1);
+			var top = (-100 * this.activeSectionIndex) +"%", offset = $elem.offset(),  clazz= "page" + (this.activeSectionIndex+1);
             offset.top = this.activeSectionIndex * wh;
             
             var clazz ="";
