@@ -17,13 +17,6 @@ jQuery(document).ready(function($) {
     	onBeforeImageShow : function(e) {
     		if(e.hasClass("main"))
     			e.parent().focusPoint("adjustFocus");    		
-    	},
-    	
-    	onAfterImageShow : function(e) {
-    		if(e.attr("id")=="sharkhorse-img") {
-    			e,addClass("animated")
-    		}
-    		
     	}
     });
     

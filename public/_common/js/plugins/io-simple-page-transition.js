@@ -91,6 +91,7 @@
 			if (e.next()[0]) {				
            	 	e.next().find(".lazy").ioloader({
                 	onBeforeImageShow : function(elem) {
+                		if(elem.hasClass("main"))
                 		elem.parent().focusPoint("adjustFocus");
                 		
                 	}
@@ -99,6 +100,7 @@
                if(e.next().next()[0]) {                  
                    e.next().next().find(".lazy").ioloader({
                    		onBeforeImageShow : function(elem) {
+                   			if(elem.hasClass("main"))
                    			elem.parent().focusPoint("adjustFocus");
                    		}
                    });
@@ -113,7 +115,7 @@
 			if (e.prev()[0]) {				
             	e.prev().find(".lazy").ioloader({
                 	onBeforeImageShow : function(elem) {
-                		//if(elem.hasClass("main"))
+                		if(elem.hasClass("main"))
                 			elem.parent().focusPoint("adjustFocus");                        		
                 	}
                 });
@@ -121,7 +123,7 @@
                    
                     e.prev().prev().find(".lazy").ioloader({
                     	onBeforeImageShow : function(elem) {
-                    		//if(elem.hasClass("main"))
+                    		if(elem.hasClass("main"))
                     			elem.parent().focusPoint("adjustFocus");
                     	}
                     });
@@ -132,7 +134,7 @@
 		_loadCurrent : function(e) {
 			e.find(".lazy").ioloader({
 		    	onBeforeImageShow : function(elem) {
-		    		//if(elem.hasClass("main"))
+		    		if(elem.hasClass("main"))
 		    			elem.parent().focusPoint("adjustFocus");
 		    	}
 		    });
