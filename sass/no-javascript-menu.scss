@@ -1,48 +1,34 @@
 @import "bourbon/bourbon";
+@import "no-javascript-menu-variables";
 
-$menuWidth : 160px;
-$menuWidthNegative : -1*$menuWidth;
+
 
 .gen-page-content {
     position : relative;
     z-index : 0;
     left: 0px;
-    margin: 65px 0 0 10px;
-    max-width: 80%;
-    @include transition();
+    width : 100%;
+    margin: 65px 0 0 0;
+    padding-left: 10px;
+    max-width: 100%;
+    @include transform(translate3d(0, 0, 0));  
+    @include transition($transitionPageContent);
 }
 
 .gen-sidebar {
-    @include position(fixed, 0px null null $menuWidthNegative);
-    background : #333;
-    z-index : 0;
-    width: $menuWidth;
-    height: 100%;
-    padding: 30px;
-    @include transition();
-    ul {
-        padding: 0px 0px 0px 0px;
-        li {
-            a {
-                color : rgba(255,255,255,0.8);
-                text-decoration: none;
-                &:hover {
-                    color : rgba(255,255,255,1);
-                }
-            }
-        }
+	@if $menuLocation == left {
+    	@include position(fixed, 0px null null $menuWidthNegative);
+    
+    } @else {
+    	 @include position(fixed, 0px $menuWidthNegative null null);
     }
-}
-
-
-.gen-sidebar-right {
-    @include position(fixed, 0px $menuWidthNegative null null);
     background : #333;
     z-index : 0;
     width: $menuWidth;
     height: 100%;
     padding: 30px;
-    @include transition();
+    @include transform(translate3d(0, 0, 0));  
+    @include transition($transitionSidebar);
     ul {
         padding: 0px 0px 0px 0px;
         li {
@@ -59,7 +45,11 @@ $menuWidthNegative : -1*$menuWidth;
 
 
 .gen-nav-toggle {
-    @include position(fixed, 0px 0 0 25px);
+	@if $menuLocation == left {
+    	@include position(fixed, 0px 0 0 25px);
+	} @else {
+		@include position(fixed, 0px 25px null null);
+	}
     font-size: 30px;
     font-weight: bold;
     display: block;
@@ -70,25 +60,9 @@ $menuWidthNegative : -1*$menuWidth;
     line-height: 40px;
     color: black;
     background-color: white;
-    @include transition();
+    @include transform(translate3d(0, 0, 0));  
+    @include transition($transitionNavToggle);
 }
-
-
-.gen-nav-toggle-right {
-    @include position(fixed, 0px 25px null null);
-    font-size: 30px;
-    font-weight: bold;
-    display: block;
-    z-index: 1;
-    cursor: pointer;
-    max-width:100%;
-    height:65px;
-    line-height: 40px;
-    color: black;
-    background-color: white;
-    @include transition();
-}
-
 
 
 #genSidebarToggler {
@@ -97,41 +71,33 @@ $menuWidthNegative : -1*$menuWidth;
     &:checked {
         + .gen-page-wrap {
             .gen-sidebar {
-                left: 0px;
+            	@if $menuLocation == left {
+                	left: 0px;
+				} @else {
+					right: 0px;				
+				}
             }
             .gen-nav-toggle {
-                left: 180px
+            	@if $menuLocation == left {
+                	left: 180px
+                } @else {
+                	right: 180px
+                }
             }
             .gen-page-content {
-                left: $menuWidth;
-            }
+            	@if $menuLocation == left {
+                	left: $menuWidth;
+                } @else {
+            		rigth: $menuWidth;
+                }
+			}   
+            	
         }
     }
 }
-
-
-#genSidebarTogglerRight {
-    display: none;
-
-    &:checked {
-        + .gen-page-wrap {
-            .gen-sidebar-right {
-                right: 0px;
-            }
-            .gen-nav-toggle-right {
-                right: 180px
-            }
-            .gen-page-content {
-                rigth: $menuWidth;
-            }
-        }
-    }
-}
-
-
 
 ul.submenu {
 	overflow: hidden;
 	height: 0px;
-	@include transition();
+	@include transition($transitionSubMenu);
 }

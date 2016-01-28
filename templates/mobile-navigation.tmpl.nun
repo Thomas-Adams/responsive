@@ -1,0 +1,23 @@
+{% extends 'base-mobile.tmpl.nun' %}
+
+{% block stylesheets %}
+{% super() %}
+<link href="_common/css/no-javascript-menu.css" rel="stylesheet" />
+{% endblock %}
+
+{% block body %}
+		<input type="checkbox" name="genSidebarToggler" id="genSidebarToggler" />
+        <div class="gen-page-wrap">
+            <label class="gen-nav-toggle" for="genSidebarToggler">☰</label>
+            <div class="container-fluid gen-page-content">
+            	{% block content %}
+            		<!-- Content goes here -->
+            	{% endblock %}
+			</div>
+			<div class="gen-sidebar">
+				
+				<!-- navigation goes here -->
+			</div>
+		</div>
+{% endblock %}
+
