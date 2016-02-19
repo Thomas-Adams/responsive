@@ -1,3 +1,36 @@
-1. Template engine SWIG
+1. Template engine nunjucks (https://mozilla.github.io/nunjucks/)
 2. JQuery as base instead of Zepto.js
 3. JQuery FocusPoint to maintain the focus point of an image. 
+
+Standalone Components:
+====================================
+
+
+Responsive Carousel:
+====================
+    http://kenwheeler.github.io/slick
+     
+Responsive embeds:
+==================
+    Techniques:
+        https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+        https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/
+
+Panels/Cards:
+=============
+
+Collapse:
+=========
+    w/o Javascript:
+    ===============
+        http://www.felipefialho.com/css-components/
+    
+Parallax scrolling:
+===================
+    
+        Libraries:
+        ==========
+            Stellar.js
+            ScrollMagic
+            multiScroll.js
+            

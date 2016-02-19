@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1450672126);
-  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1450672126#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff2?1450672126) format("woff2"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1450672126) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1450672126) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1450672126#glyphicons_halflingsregular) format("svg");
+  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1448362746);
+  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1448362746#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff2?1448362746) format("woff2"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1448362746) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1448362746) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1448362746#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {

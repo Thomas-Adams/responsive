@@ -65,7 +65,7 @@
 			                    var top = (-100 * self.activeSectionIndex) +"%", offset = $elem.offset();
 			                    offset.top = offset.top + wh;			                
 			                    $e.prev().find(".content").children().addClass("show");
-			                							}						
+			                }						
 						} 
 						
 						if(direction===direction2) { //up

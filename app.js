@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var livereload = require('express-livereload');
 var app = express();
 var config ={};
-config.watchDir = process.cwd() + "/public/css/"
+config.watchDir = process.cwd() + "/public"
 livereload(app, config);
 
 // view engine setup
