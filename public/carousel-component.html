@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Test</title>
+        <meta name="description" content="First SWIG template"/>
+        <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link href="_common/css/styles.css" rel="stylesheet" />
+        <link href="_common/css/carousel-component.css" rel="stylesheet" />         
+        <script src="_common/js/lib/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="_common/js/lib/vendor/jquery-ui/ui/minified/widget.min.js"></script>
+        <script src="_common/js/lib/vendor/fastclick/lib/fastclick.js"></script>
+        <script src="_common/js/lib/vendor/touch-swipe/jquery.touchSwipe.min.js"></script>        
+        <script src="_common/js/lib/vendor/jquery-focuspoint/js/jquery.focuspoint.js"></script>
+        <script src="_common/js/lib/vendor/bootstrap.min.js"></script>
+        <script src="_common/js/src/main-carousel-component.js"></script>
+        
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script>
+    </head>
+
+    <body>
+        <input type="checkbox" name="genSidebarToggler" id="genSidebarToggler" />
+        <div class="gen-page-wrap">
+            <label class="gen-nav-toggle" for="genSidebarToggler"><span class="glyphicon glyphicon-menu-hamburger"></span></label>
+            <div class="main gen-page-content" id="scroll-body">
+            
+	            <section class="blue" id="blue">
+	                <div class="focuspoint" data-focus-x="0" data-focus-y="0">
+	                    <img class="main" src="_media/examples/Chrysanthemum.jpg" height="100%" data-image-h="100%"/>                    
+	                </div>
+	                <div class="content" id="frog">
+	                    <div class="nav-button-wrapper-up" style="visibility:hidden;">
+                           <a href="#"class="nav-up"><span class="glyphicon glyphicon-chevron-up"></span></a>
+                        </div>   	                    
+	                    <div id="carousel-generic-1" class="carousel slide" data-ride="carousel">
+	                        <!-- Indicators -->   
+	                        <ol class="carousel-indicators">   
+                                <li data-target="#carousel-generic-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-generic-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-generic-1" data-slide-to="2"></li>
+                                <li data-target="#carousel-generic-1" data-slide-to="3"></li>
+                                <li data-target="#carousel-generic-1" data-slide-to="4"></li>
+                                <li data-target="#carousel-generic-1" data-slide-to="5"></li>
+                                <li data-target="#carousel-generic-1" data-slide-to="6"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img alt="Aqua" src="_media/examples/infinite-scrolling/aqua.png"/>
+                                    <div class="carousel-caption">
+                                        Aqua color of the water
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Black" src="_media/examples/infinite-scrolling/black.png"/>
+                                    <div class="carousel-caption">
+                                        Black color of the night
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Blue" src="_media/examples/infinite-scrolling/blue.png"/>
+                                    <div class="carousel-caption">
+                                        Blue color of the sea
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Green" src="_media/examples/infinite-scrolling/green.png"/>
+                                    <div class="carousel-caption">
+                                        Green color of the pastures
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Magenta" src="_media/examples/infinite-scrolling/magenta.png"/>
+                                    <div class="carousel-caption">
+                                        Magenta color of the berries
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Orange" src="_media/examples/infinite-scrolling/orange.png"/>
+                                    <div class="carousel-caption">
+                                        Orange color of the oranges
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Purple" src="_media/examples/infinite-scrolling/purple.png"/>
+                                    <div class="carousel-caption">
+                                        Purple color of the caesars
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Red" src="_media/examples/infinite-scrolling/red.png"/>
+                                    <div class="carousel-caption">
+                                        Red color of the luck
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="Yellow" src="_media/examples/infinite-scrolling/yellow.png"/>
+                                    <div class="carousel-caption">
+                                        Yellow color of the emperor
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-generic-1" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-generic-1" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							</a>   
+	                    </div>
+	                    
+	                    
+	                    
+	                    <div class="nav-button-wrapper-down">
+	                       <a href="#"class="nav-down"><span class="glyphicon glyphicon-chevron-down"></span></a>
+	                    </div>
+	                </div>
+	            </section>
+	            
+	        </div>
+            <div class="gen-sidebar">
+                <ul>
+                    <li>
+                        <a class="submenuToggle" href="#">Item 1</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu 1.1</a></li>
+                            <li><a href="#">Submenu 1.2</a></li>
+                            <li><a href="#">Submenu 1.3</a></li>
+                            <li><a href="#">Submenu 1.4</a></li>
+                            <li><a href="#">Submenu 1.5</a></li>
+                            <li><a href="#">Submenu 1.6</a></li>
+                            <li><a href="#">Submenu 1.7</a></li>                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="submenuToggle" href="#">Item 2</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu 2.1</a></li>
+                            <li><a href="#">Submenu 2.2</a></li>
+                            <li><a href="#">Submenu 2.3</a></li>
+                            <li><a href="#">Submenu 2.4</a></li>
+                            <li><a href="#">Submenu 2.5</a></li>
+                            <li><a href="#">Submenu 2.6</a></li>
+                            <li><a href="#">Submenu 2.7</a></li>
+                            <li><a href="#">Submenu 2.8</a></li>
+                            <li><a href="#">Submenu 2.9</a></li>
+                            <li><a href="#">Submenu 2.10</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="submenuToggle" href="#">Item 3</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu 3.1</a></li>
+                            <li><a href="#">Submenu 3.2</a></li>
+                            <li><a href="#">Submenu 3.3</a></li>
+                            <li><a href="#">Submenu 3.4</a></li>
+                            <li><a href="#">Submenu 3.5</a></li>
+                            <li><a href="#">Submenu 3.6</a></li>
+                            <li><a href="#">Submenu 3.7</a></li>
+                            <li><a href="#">Submenu 3.8</a></li>
+                            <li><a href="#">Submenu 3.9</a></li>
+                            <li><a href="#">Submenu 3.10</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="submenuToggle" href="#">Item 4</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu 4.1</a></li>
+                            <li><a href="#">Submenu 4.2</a></li>
+                            <li><a href="#">Submenu 4.3</a></li>
+                            <li><a href="#">Submenu 4.4</a></li>
+                            <li><a href="#">Submenu 4.5</a></li>
+                            <li><a href="#">Submenu 4.6</a></li>
+                            <li><a href="#">Submenu 4.7</a></li>
+                            <li><a href="#">Submenu 4.8</a></li>
+                            <li><a href="#">Submenu 4.9</a></li>
+                            <li><a href="#">Submenu 4.10</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="submenuToggle" href="#">Item 5</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu 5.1</a></li>
+                            <li><a href="#">Submenu 5.2</a></li>
+                            <li><a href="#">Submenu 5.3</a></li>
+                            <li><a href="#">Submenu 5.4</a></li>
+                            <li><a href="#">Submenu 5.5</a></li>
+                            <li><a href="#">Submenu 5.6</a></li>
+                            <li><a href="#">Submenu 5.7</a></li>
+                            <li><a href="#">Submenu 5.8</a></li>
+                            <li><a href="#">Submenu 5.9</a></li>
+                            <li><a href="#">Submenu 5.10</a></li>
+                        </ul>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
