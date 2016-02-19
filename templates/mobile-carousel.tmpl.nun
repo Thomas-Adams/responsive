@@ -1,0 +1,49 @@
+<div id="{{ carousel.id }}" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	{% if carousel.hasIndicators %}
+		<ol class="carousel-indicators">
+			{% for img in carousel.images %}
+				{% if loop.index0 == 0 %}
+					<li data-target="#{{ carousel.id }}" data-slide-to="{{ loop.index0 }}" class="active"></li>
+				{% else %}
+					<li data-target="#{{ carousel.id }}" data-slide-to="{{ loop.index0 }}"></li>
+				{% endif %}
+			{% endfor %}
+		</ol>
+	{% endif %}
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		{% for img in carousel.images %}
+			{% if loop.index0 == 0 %}
+				<div class="item active">
+					 <img src="{{ img.src }}" alt="{{ img.alt }}" />
+					 {% if img.hasCaption %}
+					 	<div class="carousel-caption">
+					 		{{ img.caption | safe }}
+					 	</div>
+					 {% endif %}
+				</div>
+			{% else %}
+				<div class="item">
+					 <img src="{{ img.src }}" alt="{{ img.alt }}" />
+					 {% if img.hasCaption %}
+					 	<div class="carousel-caption">
+					 		{{ img.caption | safe }}
+					 	</div>
+					 {% endif %}
+				</div>
+			{% endif %}						
+		{% endfor %}
+	</div>
+	<!-- Controls -->
+	{% if carousel.hasControls %}
+		<a class="left carousel-control" href="#{{ carousel.id }}" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">{{ carousel.controls.previous}}</span>
+		</a>
+		<a class="right carousel-control" href="#{{ carousel.id }}" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">{{ carousel.controls.next}}</span>
+		</a>
+	{% endif %}
+</div>

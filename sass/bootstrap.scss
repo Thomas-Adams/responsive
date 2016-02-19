@@ -2,14 +2,14 @@
 @import "bootstrap-compass";
 
 // Import custom Bootstrap variables
-@import "bootstrap-variables";
+@import "bootstrap/bootstrap-variables";
 
 // Import Bootstrap for Sass
 @import "bootstrap";
 @import "bootstrap/alerts";
 
 
-@import "custom-variables";
+@import "bootstrap/bs3-hamburger-variables";
 
 
 @include bs3-hamburger-location('left');

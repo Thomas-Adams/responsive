@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
-encoding//templates/base.tmpl.html=UTF-8
+encoding//templates/base-responsive.tmpl.nun=UTF-8
+encoding//templates/mobile-navigation.tmpl.nun=UTF-8
