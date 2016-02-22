@@ -5,8 +5,8 @@
   z-index: 0;
   left: 0px;
   width: 100%;
-  margin: 65px 0 0 0;
-  padding-left: 10px;
+  /*margin: 65px 0 0 0;*/
+  /*padding-left: 10px;*/
   max-width: 100%;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -27,7 +27,8 @@
   z-index: 0;
   width: 160px;
   height: 100%;
-  padding: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -37,21 +38,21 @@
   -moz-transition: left 0.4s ease-in;
   transition: left 0.4s ease-in;
 }
-/* line 32, ../../../sass/no-javascript-menu.scss */
+/* line 33, ../../../sass/no-javascript-menu.scss */
 .gen-sidebar ul {
   padding: 0px 0px 0px 0px;
 }
-/* line 35, ../../../sass/no-javascript-menu.scss */
+/* line 36, ../../../sass/no-javascript-menu.scss */
 .gen-sidebar ul li a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
-/* line 38, ../../../sass/no-javascript-menu.scss */
+/* line 39, ../../../sass/no-javascript-menu.scss */
 .gen-sidebar ul li a:hover {
   color: white;
 }
 
-/* line 47, ../../../sass/no-javascript-menu.scss */
+/* line 48, ../../../sass/no-javascript-menu.scss */
 .gen-nav-toggle {
   position: fixed;
   top: 0px;
@@ -64,7 +65,8 @@
   z-index: 1;
   cursor: pointer;
   max-width: 80%;
-  height: 65px;
+  height: 34px;
+  width: 32px;
   line-height: 40px;
   color: black;
   background-color: white;
@@ -78,24 +80,24 @@
   transition: left 0.4s ease-in;
 }
 
-/* line 68, ../../../sass/no-javascript-menu.scss */
+/* line 70, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler {
   display: none;
 }
-/* line 73, ../../../sass/no-javascript-menu.scss */
+/* line 75, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-sidebar {
   left: 0px;
 }
-/* line 80, ../../../sass/no-javascript-menu.scss */
+/* line 82, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-nav-toggle {
   left: 180px;
 }
-/* line 87, ../../../sass/no-javascript-menu.scss */
+/* line 89, ../../../sass/no-javascript-menu.scss */
 #genSidebarToggler:checked + .gen-page-wrap .gen-page-content {
   left: 160px;
 }
 
-/* line 99, ../../../sass/no-javascript-menu.scss */
+/* line 101, ../../../sass/no-javascript-menu.scss */
 ul.submenu {
   overflow: hidden;
   height: 0px;

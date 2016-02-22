@@ -314,3 +314,8 @@ ul.submenu {
 .slick-slide img {
   margin: auto;
 }
+
+/* line 283, ../../../sass/carousel-component-standalone.scss */
+.slick-dots {
+  bottom: -55px;
+}

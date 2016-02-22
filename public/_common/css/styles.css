@@ -8791,21 +8791,3 @@ button.close {
     display: none !important;
   }
 }
-/**
- * for type='left' the hamburger menu is displayed
- * left, for right just remove that include.
- * Usage :
- *   @include bs3-hamburger-location('left');
- *
-*/
-/* line 9, ../../../sass/_custom-variables.scss */
-.navbar-toggle {
-  margin-left: 15px;
-  margin-right: 0px;
-  float: left;
-}
-
-/* line 25, ../../../sass/_custom-variables.scss */
-.navbar-toggle {
-  display: block;
-}

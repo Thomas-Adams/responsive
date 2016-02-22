@@ -8,17 +8,17 @@
     z-index : 0;
     left: 0px;
     width : 100%;
-    margin: 65px 0 0 0;
-    padding-left: 10px;
+    /*margin: 65px 0 0 0;*/
+    /*padding-left: 10px;*/
     max-width: 100%;
-    @include transform(translate3d(0, 0, 0));  
+    @include transform(translate3d(0, 0, 0));
     @include transition($transitionPageContent);
 }
 
 .gen-sidebar {
 	@if $menuLocation == left {
     	@include position(fixed, 0px null null $menuWidthNegative);
-    
+
     } @else {
     	 @include position(fixed, 0px $menuWidthNegative null null);
     }
@@ -26,8 +26,9 @@
     z-index : 0;
     width: $menuWidth;
     height: 100%;
-    padding: 30px;
-    @include transform(translate3d(0, 0, 0));  
+    padding-left: 20px;
+    padding-top: 20px;
+    @include transform(translate3d(0, 0, 0));
     @include transition($transitionSidebar);
     ul {
         padding: 0px 0px 0px 0px;
@@ -56,11 +57,12 @@
     z-index: 1;
     cursor: pointer;
     max-width:80%;
-    height:65px;
+    height:34px;
+    width: 32px;
     line-height: 40px;
     color: black;
     background-color: white;
-    @include transform(translate3d(0, 0, 0));  
+    @include transform(translate3d(0, 0, 0));
     @include transition($transitionNavToggle);
 }
 
@@ -74,7 +76,7 @@
             	@if $menuLocation == left {
                 	left: 0px;
 				} @else {
-					right: 0px;				
+					right: 0px;
 				}
             }
             .gen-nav-toggle {
@@ -90,8 +92,8 @@
                 } @else {
             		rigth: $menuWidth;
                 }
-			}   
-            	
+			}
+
         }
     }
 }

@@ -6,12 +6,3 @@
 
 // Import Bootstrap for Sass
 @import "bootstrap";
-@import "bootstrap/alerts";
-
-
-@import "bootstrap/bs3-hamburger-variables";
-
-
-@include bs3-hamburger-location('left');
-
-@include bs3-navbar-toggle-override;
