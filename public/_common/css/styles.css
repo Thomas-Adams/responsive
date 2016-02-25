@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'robotoregular';
+  src: url("fonts/roboto/roboto_regular-webfont.eot");
+  src: url("fonts/roboto/roboto_regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/roboto_regular-webfont.woff2") format("woff2"), url("fonts/roboto/roboto_regular-webfont.woff") format("woff"), url("fonts/roboto/roboto_regular-webfont.ttf") format("truetype"), url("fonts/roboto/roboto_regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1717,7 +1724,7 @@ html {
 
 /* line 27, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "robotoregular", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -7880,7 +7887,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "robotoregular", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8018,7 +8025,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "robotoregular", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

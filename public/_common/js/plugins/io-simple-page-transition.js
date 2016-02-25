@@ -145,7 +145,8 @@
 		},
 
 		navigateTo: function(index) {
-
+			$("#scroll-body").removeClass("pagetransition");
+			$("#scroll-body").addClass("nopagetransition");
 			var $elem = $(this.element),
 				e = $elem.find(this.options.pageSelector).eq(index),
 				wh = window.innerHeight;
@@ -172,8 +173,12 @@
 			}
 			$elem.addClass(clazz);
 
+
 			$(this.options.pageSelector).find(".content").children().removeClass("show");
 			e.find(".content").children().addClass("show");
+
+			$("#scroll-body").removeClass("nopagetransition");
+			$("#scroll-body").addClass("pagetransition");
 
 			return $elem;
 		},

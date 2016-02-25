@@ -31,6 +31,8 @@
     "gsap": "https://github.com/greensock/GreenSock-JS.git#^1.18.2",
     "skrollr": "~0.6.30",
     "slick-carousel": "^1.5.9",
-    "touch-swipe": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git#1.6.x"
+    "touch-swipe": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git#1.6.x",
+    "jquery.stellar": "stellar.js#^0.6.2",
+    "iscroll": "^5.1.3"
   }
 }

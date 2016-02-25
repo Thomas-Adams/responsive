@@ -1,0 +1,107 @@
+@import "bourbon/bourbon";
+@import "_one-page-scroll-variables";
+
+div.container-fluid {
+    width:100%;
+    height:100%;
+    @include position(absolute,0 null null 0);
+    @include perspective(1200px);
+}
+nav {
+    background:#47a3da;
+}
+
+header {
+    color: #EFEFEF;
+    width:100%;
+    z-index:1000;
+    @include position(fixed,0px null null 0px);
+    h1 {
+        position: absolute;
+        top: 0%;
+        left: 20%;
+        margin-top:10px;
+        margin-bottom:10px;
+        font-size: 1.5em;
+    }
+    i {
+        margin-left:10px;
+        margin-top:10px;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+    }
+}
+
+.logo {
+    width:35%;
+    @include position(absolute,0 3% null null);
+    z-index: 6000;
+}
+
+
+
+/* lazy loading styles */
+.lazy {
+  opacity: 0;
+  @include transition($transitionLazyLoaded);
+}
+
+.lazy-loaded {
+  opacity: 1;
+}
+
+section {
+    width: 100%;
+	height: 100%;
+    @include position(absolute, 0px null null 0px);
+	visibility: hidden;
+	overflow: hidden;
+    @include backface-visibility(hidden);
+    @include transform(translate3d(0,0,0));
+    @include transform-style(preserve-3d);
+}
+
+section.current {
+    visibility: visible;
+    z-index: 1;
+}
+
+.ontop {
+	z-index: 999;
+}
+
+
+/* This is mainly for the background images of each section ("page"). */
+/* !FOCUSED IMAGES */
+/*-----------------------------------------*/
+.focuspoint {
+  position: relative; /*Any position but static should work*/
+  overflow: hidden;
+  height: 100%;
+}
+.focuspoint img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  display: block;
+  /* fill and maintain aspect ratio */
+  width: auto; height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: none;
+  max-width: none;
+}
+
+
+div.overlay {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.5) url("images/712.gif") no-repeat scroll center center;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}

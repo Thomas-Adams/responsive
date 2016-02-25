@@ -1,5 +1,5 @@
 @import "bourbon/bourbon";
-@import "one-page-scroll-variables";
+@import "_one-page-scroll-variables";
 
 body, html {
   margin: 0;
@@ -9,101 +9,86 @@ body, html {
 
 .main {
     z-index : 0;
-    @include transition($transitionPage);
-    @include transform(translate3d(0, 0, 0));
 }
 
+.pagetransition {
+    @include transform(translate3d(0, 0, 0));
+    @include transition($transitionPage);
+}
+
+.nopagetransition {
+    @include transition(none !important);
+}
 
 div#scroll-body {
   position: absolute;
   height: 100%;
   width:100%;
   top: 0%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
+
 }
+
+
 
 div#scroll-body.page2 {
   height: 100%;
   top: -100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
-
 div#scroll-body.page2.page3 {
   top: -200%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
 
 div#scroll-body.page2.page3.page4 {
   top: -300%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
-
 
 div#scroll-body.page2.page3.page4.page5 {
   top: -400%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
+
 
 div#scroll-body.page2.page3.page4.page5.page6 {
   top: -500%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
+
 
 div#scroll-body.page2.page3.page4.page5.page6.page7 {
   top: -600%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
-
 
 div#scroll-body.page2.page3.page4.page5.page6.page7.page8 {
   top: -700%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
-
 
 div#scroll-body.page2.page3.page4.page5.page6.page7.page8.page9 {
   top: -800%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
 
 
 div#scroll-body.page2.page3.page4.page5.page6.page7.page8.page9.page10 {
   top: -900%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
+
 
 div#scroll-body.page2.page3.page4.page5.page6.page7.page8.page9.page10.page11 {
   top: -1000%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
 
 
 div#scroll-body.page2.page3.page4.page5.page6.page7.page8.page9.page10.page11.page12 {
   top: -1100%;
   height: 100%;
-  @include transform(translate3d(0, 0, 0));
-  @include transition($transitionPage);
 }
+
 
 section {
   text-align: $textAlignSections;
@@ -156,7 +141,7 @@ div.content {
 .nav-button-wrapper-up, .nav-button-wrapper-down {
   position: absolute;
   text-align: center;
-  width:100%;
+  left : 50%;
 }
 
 .nav-button-wrapper-down {
@@ -282,7 +267,7 @@ div.content {
 
 #zebras, #buffalo, #lion {
 
-    
+
     left:0px;
     width:100%;
     height:100%;
@@ -335,4 +320,13 @@ div.content {
        @include transform(scale(1.0));
        max-width: 90%;
     }
+}
+
+div.overlay {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0.5;
+    background-color: black;
 }
