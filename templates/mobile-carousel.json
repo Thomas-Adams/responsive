@@ -1,0 +1,27 @@
+{
+    "carousel": {
+        "id": "irish-carousel",
+        "images": [{
+            "src": "_media/examples/landscapes/emerald-pasture-489729-ga.jpg",
+            "alt": "Irish landscape",
+            "caption": "Pastures",
+            "hasCaption": true
+        }, {
+            "src": "_media/examples/landscapes/irish-headlands-489888-ga.jpg.jpg",
+            "alt": "Irish landscape",
+            "caption": "Headlands",
+            "hasCaption": true
+        }, {
+            "src": "_media/examples/landscapes/limestone-bluffs-489639-ga.jpg",
+            "alt": "Irish landscape",
+            "caption": "Limestone",
+            "hasCaption": true
+        }],
+        "hasindicators": true,
+        "hasControls": true,
+        "controls": {
+            "previous": "Previous",
+            "next": "Next"
+        }
+    }
+}

@@ -4,7 +4,7 @@
 }
 
 /* animations moving */
-/* line 8, ../../../sass/animations.scss */
+/* line 12, ../../../sass/animations.scss */
 .moveToLeft {
   -webkit-animation: moveToLeft;
   -moz-animation: moveToLeft;
@@ -20,7 +20,7 @@
   animation-fill-mode: both;
 }
 
-/* line 15, ../../../sass/animations.scss */
+/* line 19, ../../../sass/animations.scss */
 .moveFromLeft {
   -webkit-animation: moveFromLeft;
   -moz-animation: moveFromLeft;
@@ -36,7 +36,7 @@
   animation-fill-mode: both;
 }
 
-/* line 22, ../../../sass/animations.scss */
+/* line 26, ../../../sass/animations.scss */
 .moveToRight {
   -webkit-animation: moveToRight;
   -moz-animation: moveToRight;
@@ -52,7 +52,7 @@
   animation-fill-mode: both;
 }
 
-/* line 29, ../../../sass/animations.scss */
+/* line 33, ../../../sass/animations.scss */
 .moveFromRight {
   -webkit-animation: moveFromRight;
   -moz-animation: moveFromRight;
@@ -68,7 +68,7 @@
   animation-fill-mode: both;
 }
 
-/* line 36, ../../../sass/animations.scss */
+/* line 40, ../../../sass/animations.scss */
 .moveToTop {
   -webkit-animation: moveToTop;
   -moz-animation: moveToTop;
@@ -84,7 +84,7 @@
   animation-fill-mode: both;
 }
 
-/* line 43, ../../../sass/animations.scss */
+/* line 47, ../../../sass/animations.scss */
 .moveFromTop {
   -webkit-animation: moveFromTop;
   -moz-animation: moveFromTop;
@@ -100,7 +100,7 @@
   animation-fill-mode: both;
 }
 
-/* line 50, ../../../sass/animations.scss */
+/* line 54, ../../../sass/animations.scss */
 .moveToBottom {
   -webkit-animation: moveToBottom;
   -moz-animation: moveToBottom;
@@ -116,7 +116,7 @@
   animation-fill-mode: both;
 }
 
-/* line 57, ../../../sass/animations.scss */
+/* line 61, ../../../sass/animations.scss */
 .moveFromBottom {
   -webkit-animation: moveFromBottom;
   -moz-animation: moveFromBottom;
@@ -133,7 +133,7 @@
 }
 
 /* animations fading */
-/* line 67, ../../../sass/animations.scss */
+/* line 71, ../../../sass/animations.scss */
 .fade {
   -webkit-animation: fade;
   -moz-animation: fade;
@@ -149,7 +149,7 @@
   animation-fill-mode: both;
 }
 
-/* line 74, ../../../sass/animations.scss */
+/* line 78, ../../../sass/animations.scss */
 .moveToLeftFade {
   -webkit-animation: moveToLeftFade;
   -moz-animation: moveToLeftFade;
@@ -165,7 +165,7 @@
   animation-fill-mode: both;
 }
 
-/* line 81, ../../../sass/animations.scss */
+/* line 85, ../../../sass/animations.scss */
 .moveFromLeftFade {
   -webkit-animation: moveFromLeftFade;
   -moz-animation: moveFromLeftFade;
@@ -181,7 +181,7 @@
   animation-fill-mode: both;
 }
 
-/* line 88, ../../../sass/animations.scss */
+/* line 92, ../../../sass/animations.scss */
 .moveToRightFade {
   -webkit-animation: moveToRightFade;
   -moz-animation: moveToRightFade;
@@ -197,7 +197,7 @@
   animation-fill-mode: both;
 }
 
-/* line 95, ../../../sass/animations.scss */
+/* line 99, ../../../sass/animations.scss */
 .moveFromRightFade {
   -webkit-animation: moveFromRightFade;
   -moz-animation: moveFromRightFade;
@@ -213,7 +213,7 @@
   animation-fill-mode: both;
 }
 
-/* line 102, ../../../sass/animations.scss */
+/* line 106, ../../../sass/animations.scss */
 .moveToTopFade {
   -webkit-animation: moveToTopFade;
   -moz-animation: moveToTopFade;
@@ -229,7 +229,7 @@
   animation-fill-mode: both;
 }
 
-/* line 109, ../../../sass/animations.scss */
+/* line 113, ../../../sass/animations.scss */
 .moveFromTopFade {
   -webkit-animation: moveFromTopFade;
   -moz-animation: moveFromTopFade;
@@ -245,7 +245,7 @@
   animation-fill-mode: both;
 }
 
-/* line 116, ../../../sass/animations.scss */
+/* line 120, ../../../sass/animations.scss */
 .moveToBottomFade {
   -webkit-animation: moveToBottomFade;
   -moz-animation: moveToBottomFade;
@@ -261,7 +261,7 @@
   animation-fill-mode: both;
 }
 
-/* line 123, ../../../sass/animations.scss */
+/* line 127, ../../../sass/animations.scss */
 .moveFromBottomFade {
   -webkit-animation: moveFromBottomFade;
   -moz-animation: moveFromBottomFade;
@@ -278,7 +278,7 @@
 }
 
 /* move to with different easing */
-/* line 132, ../../../sass/animations.scss */
+/* line 136, ../../../sass/animations.scss */
 .moveToLeftEasing {
   -webkit-animation: moveToLeft;
   -moz-animation: moveToLeft;
@@ -294,7 +294,7 @@
   animation-fill-mode: both;
 }
 
-/* line 139, ../../../sass/animations.scss */
+/* line 143, ../../../sass/animations.scss */
 .moveToRightEasing {
   -webkit-animation: moveToRight;
   -moz-animation: moveToRight;
@@ -310,7 +310,7 @@
   animation-fill-mode: both;
 }
 
-/* line 146, ../../../sass/animations.scss */
+/* line 150, ../../../sass/animations.scss */
 .moveToTopEasing {
   -webkit-animation: moveToTop;
   -moz-animation: moveToTop;
@@ -326,7 +326,7 @@
   animation-fill-mode: both;
 }
 
-/* line 153, ../../../sass/animations.scss */
+/* line 157, ../../../sass/animations.scss */
 .moveToBottomEasing {
   -webkit-animation: moveToBottom;
   -moz-animation: moveToBottom;
@@ -690,7 +690,7 @@
   }
 }
 /* scale and fade */
-/* line 239, ../../../sass/animations.scss */
+/* line 243, ../../../sass/animations.scss */
 .scaleDown {
   -webkit-animation: scaleDown;
   -moz-animation: scaleDown;
@@ -706,7 +706,7 @@
   animation-fill-mode: both;
 }
 
-/* line 245, ../../../sass/animations.scss */
+/* line 249, ../../../sass/animations.scss */
 .scaleUp {
   -webkit-animation: scaleUp;
   -moz-animation: scaleUp;
@@ -722,7 +722,7 @@
   animation-fill-mode: both;
 }
 
-/* line 251, ../../../sass/animations.scss */
+/* line 255, ../../../sass/animations.scss */
 .scaleUpDown {
   -webkit-animation: scaleUpDown;
   -moz-animation: scaleUpDown;
@@ -738,7 +738,7 @@
   animation-fill-mode: both;
 }
 
-/* line 257, ../../../sass/animations.scss */
+/* line 261, ../../../sass/animations.scss */
 .scaleDownUp {
   -webkit-animation: scaleDownUp;
   -moz-animation: scaleDownUp;
@@ -754,7 +754,7 @@
   animation-fill-mode: both;
 }
 
-/* line 263, ../../../sass/animations.scss */
+/* line 267, ../../../sass/animations.scss */
 .scaleDownCenter {
   -webkit-animation: scaleDownCenter;
   -moz-animation: scaleDownCenter;
@@ -770,7 +770,7 @@
   animation-fill-mode: both;
 }
 
-/* line 269, ../../../sass/animations.scss */
+/* line 273, ../../../sass/animations.scss */
 .scaleUpCenter {
   -webkit-animation: scaleUpCenter;
   -moz-animation: scaleUpCenter;
@@ -919,7 +919,7 @@
   }
 }
 /* rotate sides first and scale */
-/* line 300, ../../../sass/animations.scss */
+/* line 304, ../../../sass/animations.scss */
 .rotateRightSideFirst {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -940,7 +940,7 @@
   animation-fill-mode: both;
 }
 
-/* line 307, ../../../sass/animations.scss */
+/* line 311, ../../../sass/animations.scss */
 .rotateLeftSideFirst {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -961,7 +961,7 @@
   animation-fill-mode: both;
 }
 
-/* line 315, ../../../sass/animations.scss */
+/* line 319, ../../../sass/animations.scss */
 .rotateTopSideFirst {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -982,7 +982,7 @@
   animation-fill-mode: both;
 }
 
-/* line 323, ../../../sass/animations.scss */
+/* line 327, ../../../sass/animations.scss */
 .rotateBottomSideFirst {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1004,7 +1004,7 @@
 }
 
 /* flip */
-/* line 333, ../../../sass/animations.scss */
+/* line 337, ../../../sass/animations.scss */
 .flipOutRight {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1025,7 +1025,7 @@
   animation-fill-mode: both;
 }
 
-/* line 340, ../../../sass/animations.scss */
+/* line 344, ../../../sass/animations.scss */
 .flipInLeft {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1046,7 +1046,7 @@
   animation-fill-mode: both;
 }
 
-/* line 347, ../../../sass/animations.scss */
+/* line 351, ../../../sass/animations.scss */
 .flipOutLeft {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1067,7 +1067,7 @@
   animation-fill-mode: both;
 }
 
-/* line 354, ../../../sass/animations.scss */
+/* line 358, ../../../sass/animations.scss */
 .flipInRight {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1088,7 +1088,7 @@
   animation-fill-mode: both;
 }
 
-/* line 361, ../../../sass/animations.scss */
+/* line 365, ../../../sass/animations.scss */
 .flipOutTop {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1109,7 +1109,7 @@
   animation-fill-mode: both;
 }
 
-/* line 368, ../../../sass/animations.scss */
+/* line 372, ../../../sass/animations.scss */
 .flipInBottom {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1130,7 +1130,7 @@
   animation-fill-mode: both;
 }
 
-/* line 375, ../../../sass/animations.scss */
+/* line 379, ../../../sass/animations.scss */
 .flipOutBottom {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1151,7 +1151,7 @@
   animation-fill-mode: both;
 }
 
-/* line 382, ../../../sass/animations.scss */
+/* line 386, ../../../sass/animations.scss */
 .flipInTop {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1173,7 +1173,7 @@
 }
 
 /* rotate fall */
-/* line 392, ../../../sass/animations.scss */
+/* line 396, ../../../sass/animations.scss */
 .rotateFall {
   -webkit-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
@@ -1194,7 +1194,7 @@
   animation-fill-mode: both;
 }
 
-/* line 400, ../../../sass/animations.scss */
+/* line 404, ../../../sass/animations.scss */
 .rotateOutNewspaper {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1215,7 +1215,7 @@
   animation-fill-mode: both;
 }
 
-/* line 407, ../../../sass/animations.scss */
+/* line 411, ../../../sass/animations.scss */
 .rotateInNewspaper {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -1237,7 +1237,7 @@
 }
 
 /* push */
-/* line 416, ../../../sass/animations.scss */
+/* line 420, ../../../sass/animations.scss */
 .rotatePushLeft {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1258,7 +1258,7 @@
   animation-fill-mode: both;
 }
 
-/* line 423, ../../../sass/animations.scss */
+/* line 427, ../../../sass/animations.scss */
 .rotatePushRight {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1279,7 +1279,7 @@
   animation-fill-mode: both;
 }
 
-/* line 430, ../../../sass/animations.scss */
+/* line 434, ../../../sass/animations.scss */
 .rotatePushTop {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1300,7 +1300,7 @@
   animation-fill-mode: both;
 }
 
-/* line 437, ../../../sass/animations.scss */
+/* line 441, ../../../sass/animations.scss */
 .rotatePushBottom {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1322,7 +1322,7 @@
 }
 
 /* pull */
-/* line 446, ../../../sass/animations.scss */
+/* line 450, ../../../sass/animations.scss */
 .rotatePullRight {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1343,7 +1343,7 @@
   animation-fill-mode: both;
 }
 
-/* line 453, ../../../sass/animations.scss */
+/* line 457, ../../../sass/animations.scss */
 .rotatePullLeft {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1364,7 +1364,7 @@
   animation-fill-mode: both;
 }
 
-/* line 460, ../../../sass/animations.scss */
+/* line 464, ../../../sass/animations.scss */
 .rotatePullTop {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1385,7 +1385,7 @@
   animation-fill-mode: both;
 }
 
-/* line 467, ../../../sass/animations.scss */
+/* line 471, ../../../sass/animations.scss */
 .rotatePullBottom {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1407,7 +1407,7 @@
 }
 
 /* fold */
-/* line 476, ../../../sass/animations.scss */
+/* line 480, ../../../sass/animations.scss */
 .rotateFoldRight {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1428,7 +1428,7 @@
   animation-fill-mode: both;
 }
 
-/* line 483, ../../../sass/animations.scss */
+/* line 487, ../../../sass/animations.scss */
 .rotateFoldLeft {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1449,7 +1449,7 @@
   animation-fill-mode: both;
 }
 
-/* line 490, ../../../sass/animations.scss */
+/* line 494, ../../../sass/animations.scss */
 .rotateFoldTop {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1470,7 +1470,7 @@
   animation-fill-mode: both;
 }
 
-/* line 497, ../../../sass/animations.scss */
+/* line 501, ../../../sass/animations.scss */
 .rotateFoldBottom {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1492,7 +1492,7 @@
 }
 
 /* unfold */
-/* line 506, ../../../sass/animations.scss */
+/* line 510, ../../../sass/animations.scss */
 .rotateUnfoldLeft {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1513,7 +1513,7 @@
   animation-fill-mode: both;
 }
 
-/* line 513, ../../../sass/animations.scss */
+/* line 517, ../../../sass/animations.scss */
 .rotateUnfoldRight {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1534,7 +1534,7 @@
   animation-fill-mode: both;
 }
 
-/* line 520, ../../../sass/animations.scss */
+/* line 524, ../../../sass/animations.scss */
 .rotateUnfoldTop {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1555,7 +1555,7 @@
   animation-fill-mode: both;
 }
 
-/* line 527, ../../../sass/animations.scss */
+/* line 531, ../../../sass/animations.scss */
 .rotateUnfoldBottom {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1577,7 +1577,7 @@
 }
 
 /* room walls */
-/* line 537, ../../../sass/animations.scss */
+/* line 541, ../../../sass/animations.scss */
 .rotateRoomLeftOut {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1598,7 +1598,7 @@
   animation-fill-mode: both;
 }
 
-/* line 545, ../../../sass/animations.scss */
+/* line 549, ../../../sass/animations.scss */
 .rotateRoomLeftIn {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1619,7 +1619,7 @@
   animation-fill-mode: both;
 }
 
-/* line 553, ../../../sass/animations.scss */
+/* line 557, ../../../sass/animations.scss */
 .rotateRoomRightOut {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1640,7 +1640,7 @@
   animation-fill-mode: both;
 }
 
-/* line 560, ../../../sass/animations.scss */
+/* line 564, ../../../sass/animations.scss */
 .rotateRoomRightIn {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1661,7 +1661,7 @@
   animation-fill-mode: both;
 }
 
-/* line 567, ../../../sass/animations.scss */
+/* line 571, ../../../sass/animations.scss */
 .rotateRoomTopOut {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1682,7 +1682,7 @@
   animation-fill-mode: both;
 }
 
-/* line 574, ../../../sass/animations.scss */
+/* line 578, ../../../sass/animations.scss */
 .rotateRoomTopIn {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1703,7 +1703,7 @@
   animation-fill-mode: both;
 }
 
-/* line 581, ../../../sass/animations.scss */
+/* line 585, ../../../sass/animations.scss */
 .rotateRoomBottomOut {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1724,7 +1724,7 @@
   animation-fill-mode: both;
 }
 
-/* line 588, ../../../sass/animations.scss */
+/* line 592, ../../../sass/animations.scss */
 .rotateRoomBottomIn {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1746,7 +1746,7 @@
 }
 
 /* cube */
-/* line 597, ../../../sass/animations.scss */
+/* line 601, ../../../sass/animations.scss */
 .rotateCubeLeftOut {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1767,7 +1767,7 @@
   animation-fill-mode: both;
 }
 
-/* line 604, ../../../sass/animations.scss */
+/* line 608, ../../../sass/animations.scss */
 .rotateCubeLeftIn {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1788,7 +1788,7 @@
   animation-fill-mode: both;
 }
 
-/* line 611, ../../../sass/animations.scss */
+/* line 615, ../../../sass/animations.scss */
 .rotateCubeRightOut {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1809,7 +1809,7 @@
   animation-fill-mode: both;
 }
 
-/* line 618, ../../../sass/animations.scss */
+/* line 622, ../../../sass/animations.scss */
 .rotateCubeRightIn {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1830,7 +1830,7 @@
   animation-fill-mode: both;
 }
 
-/* line 625, ../../../sass/animations.scss */
+/* line 629, ../../../sass/animations.scss */
 .rotateCubeTopOut {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1851,7 +1851,7 @@
   animation-fill-mode: both;
 }
 
-/* line 632, ../../../sass/animations.scss */
+/* line 636, ../../../sass/animations.scss */
 .rotateCubeTopIn {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1872,7 +1872,7 @@
   animation-fill-mode: both;
 }
 
-/* line 639, ../../../sass/animations.scss */
+/* line 643, ../../../sass/animations.scss */
 .rotateCubeBottomOut {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -1893,7 +1893,7 @@
   animation-fill-mode: both;
 }
 
-/* line 646, ../../../sass/animations.scss */
+/* line 650, ../../../sass/animations.scss */
 .rotateCubeBottomIn {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -1915,7 +1915,7 @@
 }
 
 /* carousel */
-/* line 655, ../../../sass/animations.scss */
+/* line 659, ../../../sass/animations.scss */
 .rotateCarouselLeftOut {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1936,7 +1936,7 @@
   animation-fill-mode: both;
 }
 
-/* line 662, ../../../sass/animations.scss */
+/* line 666, ../../../sass/animations.scss */
 .rotateCarouselLeftIn {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1957,7 +1957,7 @@
   animation-fill-mode: both;
 }
 
-/* line 669, ../../../sass/animations.scss */
+/* line 673, ../../../sass/animations.scss */
 .rotateCarouselRightOut {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
@@ -1978,7 +1978,7 @@
   animation-fill-mode: both;
 }
 
-/* line 676, ../../../sass/animations.scss */
+/* line 680, ../../../sass/animations.scss */
 .rotateCarouselRightIn {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1999,7 +1999,7 @@
   animation-fill-mode: both;
 }
 
-/* line 683, ../../../sass/animations.scss */
+/* line 687, ../../../sass/animations.scss */
 .rotateCarouselTopOut {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -2020,7 +2020,7 @@
   animation-fill-mode: both;
 }
 
-/* line 690, ../../../sass/animations.scss */
+/* line 694, ../../../sass/animations.scss */
 .rotateCarouselTopIn {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -2041,7 +2041,7 @@
   animation-fill-mode: both;
 }
 
-/* line 697, ../../../sass/animations.scss */
+/* line 701, ../../../sass/animations.scss */
 .rotateCarouselBottomOut {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -2062,7 +2062,7 @@
   animation-fill-mode: both;
 }
 
-/* line 704, ../../../sass/animations.scss */
+/* line 708, ../../../sass/animations.scss */
 .rotateCarouselBottomIn {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -2084,7 +2084,7 @@
 }
 
 /* sides */
-/* line 713, ../../../sass/animations.scss */
+/* line 717, ../../../sass/animations.scss */
 .rotateSidesOut {
   -webkit-transform-origin: -50% 50%;
   -moz-transform-origin: -50% 50%;
@@ -2105,7 +2105,7 @@
   animation-fill-mode: both;
 }
 
-/* line 720, ../../../sass/animations.scss */
+/* line 724, ../../../sass/animations.scss */
 .rotateSidesIn {
   -webkit-transform-origin: 150% 50%;
   -moz-transform-origin: 150% 50%;
@@ -2127,7 +2127,7 @@
 }
 
 /* slide */
-/* line 728, ../../../sass/animations.scss */
+/* line 732, ../../../sass/animations.scss */
 .rotateSlideOut {
   -webkit-animation: rotateSlideOut;
   -moz-animation: rotateSlideOut;
@@ -2143,7 +2143,7 @@
   animation-fill-mode: both;
 }
 
-/* line 734, ../../../sass/animations.scss */
+/* line 738, ../../../sass/animations.scss */
 .rotateSlideIn {
   -webkit-animation: rotateSlideIn;
   -moz-animation: rotateSlideIn;
@@ -3816,56 +3816,56 @@
     transform: translateZ(0) translateX(0);
   }
 }
-/* line 1008, ../../../sass/animations.scss */
+/* line 1012, ../../../sass/animations.scss */
 .delay100 {
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-/* line 1011, ../../../sass/animations.scss */
+/* line 1015, ../../../sass/animations.scss */
 .delay180 {
   -webkit-animation-delay: 0.18s;
   -moz-animation-delay: 0.18s;
   animation-delay: 0.18s;
 }
 
-/* line 1014, ../../../sass/animations.scss */
+/* line 1018, ../../../sass/animations.scss */
 .delay200 {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-/* line 1017, ../../../sass/animations.scss */
+/* line 1021, ../../../sass/animations.scss */
 .delay300 {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 
-/* line 1020, ../../../sass/animations.scss */
+/* line 1024, ../../../sass/animations.scss */
 .delay400 {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-/* line 1023, ../../../sass/animations.scss */
+/* line 1027, ../../../sass/animations.scss */
 .delay500 {
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 
-/* line 1026, ../../../sass/animations.scss */
+/* line 1030, ../../../sass/animations.scss */
 .delay700 {
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
-/* line 1029, ../../../sass/animations.scss */
+/* line 1033, ../../../sass/animations.scss */
 .delay1000 {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;

@@ -6,6 +6,7 @@ div.container-fluid {
     height:100%;
     @include position(absolute,0 null null 0);
     @include perspective(1200px);
+    padding:0;
 }
 nav {
     background:#47a3da;

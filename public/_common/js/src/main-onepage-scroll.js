@@ -1,6 +1,6 @@
 var heightSubMenuItems = 20;
 jQuery(document).ready(function($) {
-	$("div.overlay").show();
+
 	$(".content").children().removeClass("show");
 	$("#scroll-body").ioSimplePageTransition();
 	$('.focuspoint').focusPoint();

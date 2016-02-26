@@ -32,7 +32,7 @@
 					 	</div>
 					 {% endif %}
 				</div>
-			{% endif %}						
+			{% endif %}
 		{% endfor %}
 	</div>
 	<!-- Controls -->

@@ -4,6 +4,10 @@
 	z-index: 999;
 }
 
+.current {
+
+}
+
 /* animations moving */
 .moveToLeft {
     @include animation(moveToLeft);
