@@ -17,7 +17,7 @@
             "caption": "Limestone",
             "hasCaption": true
         }],
-        "hasindicators": true,
+        "hasIndicators": true,
         "hasControls": true,
         "controls": {
             "previous": "Previous",

@@ -35,7 +35,7 @@ html {
   -ms-flex-pack: justify;
 }
 
-/* line 11, ../../../sass/cards.scss */
+/* line 13, ../../../sass/cards.scss */
 .card {
   -webkit-flex-basis: 15em;
   -moz-flex-basis: 15em;
@@ -56,16 +56,15 @@ html {
   margin: 0 1em 1.5em 1em;
   position: absolute;
   top: 35%;
-  left: 25%;
 }
-/* line 40, ../../../sass/cards.scss */
+/* line 62, ../../../sass/cards.scss */
 .card .card-image {
   overflow: hidden;
-  height: 541px;
-  max-height: 541px;
+  height: 100%;
+  max-height: 550px;
   background-color: #F8F2B4;
 }
-/* line 46, ../../../sass/cards.scss */
+/* line 68, ../../../sass/cards.scss */
 .card .card-image img {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -75,7 +74,7 @@ html {
   width: 100%;
   opacity: 1;
 }
-/* line 55, ../../../sass/cards.scss */
+/* line 77, ../../../sass/cards.scss */
 .card .card-header {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -87,29 +86,29 @@ html {
   line-height: 1.5em;
   padding: 0.5em 0.75em;
 }
-/* line 65, ../../../sass/cards.scss */
+/* line 87, ../../../sass/cards.scss */
 .card .card-copy {
   font-size: 0.9em;
   line-height: 1.5em;
   padding: 0.75em 0.75em;
 }
-/* line 70, ../../../sass/cards.scss */
+/* line 92, ../../../sass/cards.scss */
 .card .card-copy p {
   margin: 0 0 0.75em;
 }
-/* line 75, ../../../sass/cards.scss */
+/* line 97, ../../../sass/cards.scss */
 .card:focus, .card:hover {
   cursor: pointer;
 }
-/* line 79, ../../../sass/cards.scss */
+/* line 101, ../../../sass/cards.scss */
 .card:focus img, .card:hover img {
   opacity: 0.7;
 }
-/* line 84, ../../../sass/cards.scss */
+/* line 106, ../../../sass/cards.scss */
 .card:active {
   background-color: #f6f6f6;
 }
-/* line 87, ../../../sass/cards.scss */
+/* line 109, ../../../sass/cards.scss */
 .card:active .card-header {
   background-color: #f6f6f6;
 }

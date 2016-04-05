@@ -33,4 +33,7 @@ Parallax scrolling:
             Stellar.js
             ScrollMagic
             multiScroll.js
-            
+
+Slide menus (show and push ):
+=====================================
+    http://tympanus.net/codrops/2013/04/17/slide-and-push-menus/            

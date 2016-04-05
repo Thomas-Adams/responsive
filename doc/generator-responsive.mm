@@ -87,7 +87,8 @@
 <edge COLOR="#00ff00"/>
 <node TEXT="Off-Canvas navigation" ID="ID_146113134" CREATED="1450696104654" MODIFIED="1452240225843">
 <node TEXT="Slide navigation" ID="ID_868438263" CREATED="1450854341186" MODIFIED="1452240225841">
-<node TEXT="simple" ID="ID_170549519" CREATED="1450854363728" MODIFIED="1451969119041">
+<node TEXT="simple" ID="ID_170549519" CREATED="1450854363728" MODIFIED="1457001015799">
+<attribute_layout NAME_WIDTH="96" VALUE_WIDTH="727"/>
 <attribute NAME="URL example" VALUE="http://localhost:3001/slidebars-menu.html" OBJECT="java.net.URI|http://localhost:3001/slidebars-menu.html"/>
 <attribute NAME="From" VALUE="https://www.youtube.com/watch?v=d4P8s-mkMvs&amp;list=PLB1tHjY6_AzltKYY1LzY7U2ADRNSV9hDL" OBJECT="java.net.URI|https://www.youtube.com/watch?v=d4P8s-mkMvs&amp;list=PLB1tHjY6_AzltKYY1LzY7U2ADRNSV9hDL"/>
 </node>
