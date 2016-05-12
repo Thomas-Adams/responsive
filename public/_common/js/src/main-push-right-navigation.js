@@ -163,7 +163,7 @@ $(document).ready(function() {
                                 onEndAnimation($currentPage, $nextPage);
                             }
                         } catch (err) {
-                            aler(err);
+                            alert(err);
                         }
 
                     });
@@ -178,7 +178,7 @@ $(document).ready(function() {
                                 onEndAnimation($currentPage, $nextPage);
                             }
                         } catch (err) {
-                            aler(err);
+                            alert(err);
                         }
 
                     });
@@ -199,7 +199,7 @@ $(document).ready(function() {
                                 onEndAnimation($currentPage, $nextPage);
                             }
                         } catch (err) {
-                            aler(err);
+                            alert(err);
                         }
                     });
                     $currentPage.addClass(animations[animationIndex].outClass).on(animEndEventName, function() {
@@ -210,7 +210,7 @@ $(document).ready(function() {
                                 onEndAnimation($currentPage, $nextPage);
                             }
                         } catch (err) {
-                            aler(err);
+                            alert(err);
                         }
 
                     });
