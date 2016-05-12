@@ -34,6 +34,7 @@
     "touch-swipe": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git#1.6.x",
     "jquery.stellar": "stellar.js#^0.6.2",
     "iscroll": "^5.1.3",
-    "hammerjs": "hammer.js#^2.0.6"
+    "hammerjs": "^2.0.8",
+    "modernizr": "^3.3.1"
   }
 }

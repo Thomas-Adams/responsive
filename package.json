@@ -43,6 +43,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-copy": "0.0.2",
     "gulp-cssmin": "^0.1.7",
+    "gulp-extractfiles": "^1.0.0",
     "gulp-handlebars": "^4.0.0",
     "gulp-html-replace": "^1.5.5",
     "gulp-jshint": "^2.0.0",
